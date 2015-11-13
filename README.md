@@ -25,7 +25,7 @@ For generate that list you'll need:
 ## Example use
 
     module "ami" {
-      source = "github.com/terraform-community-modules/tf_aws_debian_ami"
+      source = "github.com/dwaskowski/tf_aws_debian_ami"
       region = "eu-west-1"
       distribution = "wheezy"
       architecture = "x86_64"
